@@ -1,7 +1,7 @@
 def pow(x, y):
     if y == 1:
         return x
-    
+
     return x * pow(x, y - 1)
 
 
