@@ -3,4 +3,4 @@ stars = ""
 
 for i in range(N):
     stars += "*"
-    print("%{0}s".format(N) % stars)
+    print(("%%%ds" % (N)) % stars)

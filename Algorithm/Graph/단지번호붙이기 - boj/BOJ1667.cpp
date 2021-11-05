@@ -54,7 +54,7 @@ int main(void)
 
     sort(groupSize.begin(), groupSize.end());
 
-    printf("%d\n", groupSize.size());
+    printf("%lu\n", groupSize.size());
 
     for (int i = 0; i < groupSize.size(); ++i)
     {
